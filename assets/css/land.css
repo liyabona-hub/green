@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+}
+.op_vid {
+    width: 100%;
+    position: absolute;
+    top: -60%;
+    overflow: hidden;
+}
+
+.explorebtn {
+    position: absolute;
+    top: 70%;
+    right: 47%;
+    background: transparent;
+    border: solid white;
+    color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    .explorebtn {
+
+        position: fixed;
+        top: 65%;
+        right: 39%;
+        background: transparent;
+        border: solid white;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .explorebtn:hover{
+        border: solid green !important;
+        color: green;
+    }
+
+    .op_vid {
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+        overflow: hidden;
+    }
+
+}
